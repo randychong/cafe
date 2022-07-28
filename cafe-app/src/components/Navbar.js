@@ -11,7 +11,7 @@ export default function Navbar() {
         <Router>
             <nav class="navbar">
                 <div class="brand-title">
-                    <Link to="/home">
+                    <Link to="/home" class="brand-link">
                         Brand Name
                     </Link>
                 </div>

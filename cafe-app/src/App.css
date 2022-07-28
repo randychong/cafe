@@ -14,3 +14,16 @@ body {
     background-color: #333;
     color: white;
 }
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.brand-link {
+    text-decoration: none;
+}
+
+.brand-link:visited {
+    color: inherit;
+}
