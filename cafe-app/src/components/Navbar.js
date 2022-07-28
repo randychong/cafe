@@ -8,15 +8,26 @@ export default function Navbar() {
   return (
     <div>
         <Router>
-            <Link to="/home">
-                <p>Link to home</p>
-            </Link>
-            <Link to="/products">
-                <p>Link to products</p>
-            </Link>
-            <Link to="/cart">
-                <p>Link to cart</p>
-            </Link>
+            <nav class="navbar">
+                <div class="brand-title">Brand Name</div>
+                <div class="navbar-links">
+                    <ul>
+                        <li>
+                            <Link to="/home">
+                                <p>Link to home</p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/products">
+                                <p>Link to products</p>
+                            </Link></li>
+                        <li>
+                            <Link to="/cart">
+                                <p>Link to cart</p>
+                            </Link></li>
+                    </ul>
+                </div>
+            </nav>
             <Routes>
                 <Route path="/home" element={<Home />} />
                 <Route path="/products" element={<Products />} />
