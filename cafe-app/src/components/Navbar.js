@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
@@ -6,34 +6,34 @@ import Products from './Products';
 import Cart from './Cart';
 
 export default function Navbar() {
-  return (
+    return (
     <div>
         <Router>
-            <nav class="navbar">
-                <div class="brand-title">
-                    <Link to="/home" class="brand-link">
+            <nav className="navbar">
+                <div className="brand-title">
+                    <Link to="/home" className="brand-link">
                         Brand Name
                     </Link>
                 </div>
-                <a href="#" class="toggle-button">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
-                <div class="navbar-links">
+                <div className="toggle-button">
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </div>
+                <div className="navbar-links" >
                     <ul>
                         <li>
-                            <Link to="/products" class="navbar-li">
+                            <Link to="/products" className="navbar-li">
                                 Products
                             </Link>
                         </li>
                         <li>
-                            <Link to="/cart" class="navbar-li">
+                            <Link to="/cart" className="navbar-li">
                                 Cart
                             </Link>
                         </li>
                         <li>
-                            <Link to="/about" class="navbar-li">
+                            <Link to="/about" className="navbar-li">
                                 About
                             </Link>
                         </li>
