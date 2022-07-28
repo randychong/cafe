@@ -15,20 +15,25 @@ export default function Navbar() {
                         Brand Name
                     </Link>
                 </div>
+                <a href="toggle" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
                 <div class="navbar-links">
                     <ul>
                         <li>
-                            <Link to="/products">
+                            <Link to="/products" class="navbar-li">
                                 Products
                             </Link>
                         </li>
                         <li>
-                            <Link to="/cart">
+                            <Link to="/cart" class="navbar-li">
                                 Cart
                             </Link>
                         </li>
                         <li>
-                            <Link to="/about">
+                            <Link to="/about" class="navbar-li">
                                 About
                             </Link>
                         </li>
