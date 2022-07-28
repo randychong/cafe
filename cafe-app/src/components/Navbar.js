@@ -6,6 +6,7 @@ import Products from './Products';
 import Cart from './Cart';
 
 export default function Navbar() {
+    const [isActive, setActive] = useState(false)
     return (
     <div>
         <Router>
@@ -15,12 +16,12 @@ export default function Navbar() {
                         Brand Name
                     </Link>
                 </div>
-                <div className="toggle-button">
+                <div className="toggle-button" onClick={()=> setActive(v => !v)}>
                     <span className="bar"></span>
                     <span className="bar"></span>
                     <span className="bar"></span>
                 </div>
-                <div className="navbar-links" >
+                <div className={isActive ? "active-links": "navbar-links"}>
                     <ul>
                         <li>
                             <Link to="/products" className="navbar-li">

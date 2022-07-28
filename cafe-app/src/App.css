@@ -34,7 +34,17 @@ body {
     display: flex;
 }
 
+.active-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
 .navbar-links li {
+    list-style: none;
+}
+
+.active-links li {
     list-style: none;
 }
 
@@ -77,12 +87,21 @@ body {
         width: 100%;
     }
 
+    .active-links {
+        width: 100%;
+    }
+
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
 
     .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .active-links ul {
         width: 100%;
         flex-direction: column;
     }
