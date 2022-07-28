@@ -15,7 +15,7 @@ export default function Navbar() {
                         Brand Name
                     </Link>
                 </div>
-                <a href="toggle" class="toggle-button">
+                <a href="#" class="toggle-button">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
