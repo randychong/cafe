@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
-import About from './About';
+import Orders from './Orders';
 import Products from './Products';
 import Cart from './Cart';
 
@@ -13,7 +13,7 @@ export default function Navbar() {
             <nav className="navbar">
                 <div className="brand-title">
                     <Link to="/home" className="brand-link">
-                        Brand Name
+                        The Bobarista
                     </Link>
                 </div>
                 <div className="toggle-button" onClick={()=> setActive(v => !v)}>
@@ -34,8 +34,8 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/about" className="navbar-li">
-                                About
+                            <Link to="/orders" className="navbar-li">
+                                Orders
                             </Link>
                         </li>
                     </ul>
@@ -45,7 +45,7 @@ export default function Navbar() {
                 <Route path="/home" element={<Home />} />
                 <Route path="/products" element={<Products />} />
                 <Route path="/cart" element={<Cart />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/about" element={<Orders />} />
             </Routes>
         </Router>
     </div>
