@@ -45,7 +45,7 @@ export default function Navbar() {
                 <Route path="/home" element={<Home />} />
                 <Route path="/products" element={<Products />} />
                 <Route path="/cart" element={<Cart />} />
-                <Route path="/about" element={<Orders />} />
+                <Route path="/orders" element={<Orders />} />
             </Routes>
         </Router>
     </div>

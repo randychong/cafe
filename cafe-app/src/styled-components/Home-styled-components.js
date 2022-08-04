@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const Banner = styled.img`
 width: 100%;
 align-self: center;
-height: 40rem;
+height: 30rem;
 object-fit: cover;
 object-position: 50% 50%;
 `

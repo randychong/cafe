@@ -5,14 +5,16 @@
 body {
     margin: 0;
     padding: 0;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .brand-title {
@@ -50,13 +52,13 @@ body {
 
 .navbar-li {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 1rem;
     display: block;
 }
 
 .navbar-li:hover {
-    background-color: #555;
+    color: red;
 }
 
 .toggle-button {
