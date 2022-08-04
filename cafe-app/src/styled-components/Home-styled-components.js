@@ -25,14 +25,16 @@ export const Button = styled.button`
     margin-top: 12rem;
     width: 15rem;
     height: 3rem;
-    background: rgba(249, 249, 249, 0.9);
+    background: rgba(248, 248, 248, 0.9);
     border-radius: 3px;
     border: none;
     transition: 200ms ease;
     font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
 
     &:hover {
         cursor: pointer;
-        background: rgba(249, 249, 249, 0.7);
+        color: #00B6BC;
     }
 `

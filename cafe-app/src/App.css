@@ -25,6 +25,8 @@ body {
 
 .brand-link {
     text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
 }
 
 .brand-link:visited {
@@ -59,7 +61,7 @@ body {
 }
 
 .navbar-li:hover {
-    color: red;
+    color: #00B6BC;
 }
 
 .toggle-button {
