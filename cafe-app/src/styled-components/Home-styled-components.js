@@ -21,7 +21,6 @@ export const Banner = styled.img`
 `
 
 export const Button = styled.button`
-    position: absolute;
     margin-top: 12rem;
     width: 15rem;
     height: 3rem;
@@ -37,4 +36,8 @@ export const Button = styled.button`
         cursor: pointer;
         color: #00B6BC;
     }
+`
+
+export const ButtonContainer = styled.div`
+    position: absolute;
 `
