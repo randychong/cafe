@@ -2,7 +2,7 @@ import React, { useState} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Orders from './Orders';
-import Products from './Products';
+import Menu from './Menu';
 import Cart from './Cart';
 
 export default function Navbar() {
@@ -24,8 +24,8 @@ export default function Navbar() {
                 <div className={isActive ? "active-links": "navbar-links"}>
                     <ul>
                         <li>
-                            <Link to="/products" className="navbar-li">
-                                Products
+                            <Link to="/menu" className="navbar-li">
+                                Menu
                             </Link>
                         </li>
                         <li>
@@ -43,7 +43,7 @@ export default function Navbar() {
             </nav>
             <Routes>
                 <Route path="/home" element={<Home />} />
-                <Route path="/products" element={<Products />} />
+                <Route path="/menu" element={<Menu />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/orders" element={<Orders />} />
             </Routes>
