@@ -12,4 +12,8 @@ align-self: center;
 height: 30rem;
 object-fit: cover;
 object-position: 50% 50%;
+
+@media (max-width: 600px) {
+    height: 20rem;
+}
 `
