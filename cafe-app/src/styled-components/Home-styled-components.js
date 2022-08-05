@@ -44,8 +44,23 @@ export const ButtonContainer = styled.div`
 
 export const InfoContainer = styled.div`
     width: 100%;
+    display: flex;
+    flex-direction: column;
 `
 
 export const InfoSection = styled.div`
+    display: flex;
     width: 100%;
+    height: 30rem;
+    justify-content: space-between;
+    place-items: center;
+
+`
+export const InfoImage = styled.img`
+    width: 30rem;
+    height: 100%;
+    object-fit: cover;
+`
+
+export const InfoText = styled.p`
 `
