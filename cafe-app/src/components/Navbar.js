@@ -12,7 +12,7 @@ export default function Navbar() {
         <Router>
             <nav className="navbar">
                 <div className="brand-title">
-                    <Link to="/home" className="brand-link">
+                    <Link to="/" className="brand-link">
                         The Bobarista
                     </Link>
                 </div>
@@ -42,10 +42,10 @@ export default function Navbar() {
                 </div>
             </nav>
             <Routes>
-                <Route path="/home" element={<Home />} />
-                <Route path="/menu" element={<Menu />} />
-                <Route path="/cart" element={<Cart />} />
-                <Route path="/orders" element={<Orders />} />
+                <Route exact path="/" element={<Home />} />
+                <Route exact path="/menu" element={<Menu />} />
+                <Route exact path="/cart" element={<Cart />} />
+                <Route exact path="/orders" element={<Orders />} />
             </Routes>
         </Router>
     </div>
