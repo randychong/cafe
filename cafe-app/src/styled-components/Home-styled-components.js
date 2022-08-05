@@ -11,7 +11,6 @@ export const BannerContainer = styled.div`
 
 export const Banner = styled.img`
     width: 100%;
-    align-self: center;
     height: 30rem;
     object-fit: cover;
 
@@ -51,16 +50,23 @@ export const InfoContainer = styled.div`
 export const InfoSection = styled.div`
     display: flex;
     width: 100%;
-    height: 30rem;
+    height: 35rem;
     justify-content: space-between;
-    place-items: center;
 
 `
 export const InfoImage = styled.img`
     width: 30rem;
     height: 100%;
     object-fit: cover;
+    align-self: end;
 `
 
 export const InfoText = styled.p`
+`
+
+export const TextContainer = styled.div`
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    place-items: center;
 `

@@ -8,7 +8,8 @@ import {
   InfoContainer,
   InfoSection,
   InfoImage,
-  InfoText
+  InfoText,
+  TextContainer
 } from "../styled-components/Home-styled-components";
 import BannerImage from "../assets/pastry-and-coffee-horizontal.jpg";
 import CoffeeSampler from "../assets/coffee-sampler.jpg";
@@ -30,23 +31,29 @@ export default function Home() {
         <InfoContainer>
           <InfoSection>
             <InfoImage src={SeaCreamTea}/>
-            <InfoText>
-              Info text for section 1.
-            </InfoText>
+            <TextContainer>
+              <InfoText>
+                Info text for section 1.
+              </InfoText>
+            </TextContainer>
           </InfoSection>
 
           <InfoSection>
-            <InfoText>
-            Info text for section 2.
-            </InfoText>
+            <TextContainer>
+              <InfoText>
+                Info text for section 2.
+              </InfoText>
+            </TextContainer>
             <InfoImage src={MacaronStack}/>
           </InfoSection>
 
           <InfoSection>
             <InfoImage src={CoffeeSampler}/>
-            <InfoText>
-            Info text for section 3.
-            </InfoText>
+            <TextContainer>
+              <InfoText>
+                Info text for section 3.
+              </InfoText>
+            </TextContainer>
           </InfoSection>
         </InfoContainer>
     </div>
