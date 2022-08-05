@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const BannerContainer = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -40,4 +40,12 @@ export const Button = styled.button`
 
 export const ButtonContainer = styled.div`
     position: absolute;
+`
+
+export const InfoContainer = styled.div`
+    width: 100%;
+`
+
+export const InfoSection = styled.div`
+    width: 100%;
 `

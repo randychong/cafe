@@ -1,9 +1,10 @@
 import React from 'react'
 import { 
-  Container, 
   Banner, 
+  BannerContainer, 
   Button,
-  ButtonContainer
+  ButtonContainer,
+  InfoContainer
 } from "../styled-components/Home-styled-components";
 import BannerImage from "../assets/pastry-and-coffee-horizontal.jpg";
 import { NavLink } from "react-router-dom";
@@ -11,14 +12,18 @@ import { NavLink } from "react-router-dom";
 export default function Home() {
   return (
     <div>
-        <Container>
+        <BannerContainer>
           <Banner src={BannerImage} />
           <ButtonContainer>
             <NavLink to="/menu">
               <Button>View Menu</Button>
             </NavLink>
           </ButtonContainer>
-        </Container>
+        </BannerContainer>
+
+        <InfoContainer>
+          
+        </InfoContainer>
     </div>
   )
 }
