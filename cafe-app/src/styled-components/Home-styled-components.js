@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BannerContainer = styled.div`
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     width: 100%;
     justify-content: center;
     place-items: center;
@@ -51,6 +51,7 @@ export const InfoSection = styled.div`
     display: flex;
     width: 100%;
     height: 35rem;
+    margin-bottom: 2rem;
     justify-content: space-between;
     flex-direction: ${(props) => (props.reverse ? "row-reverse" : "")};
 
@@ -68,6 +69,7 @@ export const InfoImage = styled.img`
     @media (max-width: 600px) {
         width: 100%;
         height: 20rem;
+        object-position: 50% 80%;
     }
 `
 

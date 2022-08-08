@@ -28,6 +28,12 @@ export default function Home() {
           </ButtonContainer>
         </BannerContainer>
 
+        <TextContainer>
+          <InfoText>
+            Opening info text.
+          </InfoText>
+        </TextContainer>
+
         <InfoContainer>
           <InfoSection>
             <InfoImage src={SeaCreamTea}/>
