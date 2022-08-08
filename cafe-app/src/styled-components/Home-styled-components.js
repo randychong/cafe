@@ -56,6 +56,7 @@ export const InfoSection = styled.div`
 
     @media (max-width: 600px) {
         flex-direction: ${(props) => (props.reverse ? "column" : "column")};
+        height: 25rem;
     }
 
 `
@@ -65,6 +66,8 @@ export const InfoImage = styled.img`
     object-fit: cover;
 
     @media (max-width: 600px) {
+        width: 100%;
+        height: 20rem;
     }
 `
 
@@ -73,7 +76,12 @@ export const InfoText = styled.p`
 
 export const TextContainer = styled.div`
     width: 35rem;
+    height: 100%;
     display: flex;
     justify-content: center;
     place-items: center;
+
+    @media (max-width: 600px) {
+        width: 100%;
+    }
 `
