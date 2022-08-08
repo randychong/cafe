@@ -52,13 +52,20 @@ export const InfoSection = styled.div`
     width: 100%;
     height: 35rem;
     justify-content: space-between;
+    flex-direction: ${(props) => (props.reverse ? "row-reverse" : "")};
+
+    @media (max-width: 600px) {
+        flex-direction: ${(props) => (props.reverse ? "column" : "column")};
+    }
 
 `
 export const InfoImage = styled.img`
     width: 30rem;
     height: 100%;
     object-fit: cover;
-    align-self: end;
+
+    @media (max-width: 600px) {
+    }
 `
 
 export const InfoText = styled.p`

@@ -38,13 +38,13 @@ export default function Home() {
             </TextContainer>
           </InfoSection>
 
-          <InfoSection>
+          <InfoSection reverse>
+            <InfoImage src={MacaronStack}/>
             <TextContainer>
               <InfoText>
                 Info text for section 2.
               </InfoText>
             </TextContainer>
-            <InfoImage src={MacaronStack}/>
           </InfoSection>
 
           <InfoSection>
