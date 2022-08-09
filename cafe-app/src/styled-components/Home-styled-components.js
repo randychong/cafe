@@ -82,6 +82,8 @@ export const TextContainer = styled.div`
     display: flex;
     justify-content: center;
     place-items: center;
+    margin-left: ${(props) => (props.main ? "auto" : "")};
+    margin-right: ${(props) => (props.main ? "auto" : "")};
 
     @media (max-width: 600px) {
         width: 100%;

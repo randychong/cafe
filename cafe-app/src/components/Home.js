@@ -28,7 +28,7 @@ export default function Home() {
           </ButtonContainer>
         </BannerContainer>
 
-        <TextContainer>
+        <TextContainer main>
           <InfoText>
             Opening info text.
           </InfoText>
