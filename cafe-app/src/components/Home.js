@@ -15,6 +15,7 @@ import BannerImage from "../assets/pastry-and-coffee-horizontal.jpg";
 import CoffeeSampler from "../assets/coffee-sampler.jpg";
 import MacaronStack from "../assets/macaron-stack.jpg";
 import SeaCreamTea from "../assets/sea-cream-tea.jpg";
+import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -62,6 +63,8 @@ export default function Home() {
             </TextContainer>
           </InfoSection>
         </InfoContainer>
+
+        <Footer />
     </div>
   )
 }
