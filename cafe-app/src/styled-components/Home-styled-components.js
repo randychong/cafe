@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BannerContainer = styled.div`
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     width: 100%;
     justify-content: center;
     place-items: center;
@@ -84,6 +84,10 @@ export const TextContainer = styled.div`
     place-items: center;
     margin-left: ${(props) => (props.main ? "auto" : "")};
     margin-right: ${(props) => (props.main ? "auto" : "")};
+    border-top: ${(props) => (props.main ? "1px lightgray solid" : "")};
+    border-bottom: ${(props) => (props.main ? "1px lightgray solid" : "")};
+    margin-bottom: ${(props) => (props.main ? "2rem" : "")};
+
 
     @media (max-width: 600px) {
         width: 100%;
